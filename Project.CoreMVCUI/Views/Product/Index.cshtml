@@ -1,0 +1,36 @@
+﻿@model IEnumerable<ProductVm>
+
+@{
+    ViewData["Title"] = "Product Page";
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">List of Products</h1>
+</div>
+
+<div class="row mt-3">
+    <div class="col-6 offset-3">
+        <table class="table table-bordered">
+            <thead>
+                <tr class="text-center">
+                    <th>Id</th>
+                    <th>Product Name</th>
+                    <th>Unit Price</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.ID</td>
+                        <td>@product.ProductName</td>
+                        <td>@product.UnitPrice</td>
+                        <td>@product.CategoryName</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
