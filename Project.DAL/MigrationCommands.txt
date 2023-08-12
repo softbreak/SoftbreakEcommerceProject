@@ -1,0 +1,5 @@
+﻿
+
+Directory ==> C:\SoftbreakEcommerceProject\Project.DAL
+dotnet ef migrations add InitialDb --startup-project C:\SoftbreakEcommerceProject\Project.CoreMVCUI
+dotnet ef database update --startup-project C:\SoftbreakEcommerceProject\Project.CoreMVCUI
