@@ -10,6 +10,7 @@ Bu GitHub deposu, .NET platformunda Ntier mimarisi kullanarak bir eticaret proje
 2. [.NET ile Eticaret Projesi (Ntier) - Proje Oluşturma Adımları ve Entitylerin Tanımlanması](https://youtu.be/9lA9_ebx9OE)
 3. [.NET ile Eticaret Projesi (Ntier) - Veri Erişim Katmanı (DAL)](https://youtu.be/yz2bNrDeBr0)
 4. [.NET ile Eticaret Projesi (Ntier) - Context Sınıfı Yönetimi](https://youtu.be/a43IF4ZkiWw)
+5. [.NET ile Eticaret Projesi (Ntier) - Repository Pattern](https://youtu.be/Md-jdha2d3M)
 
 (Devamı geldikçe liste güncellenecektir.)
 
