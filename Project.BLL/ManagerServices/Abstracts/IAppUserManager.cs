@@ -5,11 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Project.DAL.Repositories.Abstracts
+namespace Project.BLL.ManagerServices.Abstracts
 {
-    public interface IAppUserRepository:IRepository<AppUser>
+    public interface IAppUserManager : IManager<AppUser>
     {
-
-        Task<bool> AddUser(AppUser item);
+        Task<bool> CreateUser(AppUser item);
     }
 }
